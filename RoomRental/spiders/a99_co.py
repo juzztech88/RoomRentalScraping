@@ -65,7 +65,7 @@ class A99CoSpider(scrapy.Spider):
 def parse_room_property(property_list):
     property_dict = {
         'Room_type' : "",
-        'Dimension' : "",
+        'Dimension_sqft' : "",
         'Bathroom' : "",
         'Built-up' : 0,
     }
